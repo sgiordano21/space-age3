@@ -10,8 +10,8 @@ describe ('Person', function() {
 
 describe ('Person', function(){
   it('should return how old a person is in mercurian years', function(){
-    let exampleAge = new Person ('5');
-    expect (exampleAge.mercAge()).toBe(20.83);
+    let exampleAge = new Person ('26');
+    expect (exampleAge.mercAge()).toBe(108);
 
   });
 });

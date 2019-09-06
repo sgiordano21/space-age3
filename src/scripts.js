@@ -17,7 +17,7 @@ export class Person {
 
   mercAge() {
     const mercury = '.24';
-    let newAge = (this.age / mercury);
+    let newAge = parseInt(this.age / mercury);
     return newAge;
   }
 }
