@@ -23,3 +23,11 @@ describe ('Person', function(){
 
   });
 })
+
+describe ('Person', function(){
+  it('should return how old a person is in martian years', function(){
+    let exampleAge = new Person ('26');
+    expect (exampleAge.marsAge()).toBe(13);
+
+  });
+})

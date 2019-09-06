@@ -26,4 +26,10 @@ export class Person {
     let venusian = parseInt(this.age / venus);
     return venusian;
   }
+
+  marsAge() {
+    const mars = '1.88';
+    let martian = parseInt(this.age / mars);
+    return martian;
+  }
 }
