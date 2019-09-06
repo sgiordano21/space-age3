@@ -15,3 +15,11 @@ describe ('Person', function(){
 
   });
 });
+
+describe ('Person', function(){
+  it('should return how old a person is in venusian years', function(){
+    let exampleAge = new Person ('26');
+    expect (exampleAge.venusAge()).toBe(41);
+
+  });
+})

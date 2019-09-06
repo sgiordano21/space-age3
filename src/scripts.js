@@ -2,7 +2,7 @@ export class Person {
   constructor(age, mercury, spaceAge, lifeExpectancy) {
     this.age = age;
     this.mercury = this.mercAge();
-    // this.venus = this.venusAge();
+    this.venus = this.venusAge();
     // this.mars = this.marsAge();
     // this.jupiter = this.jupAge();
     // this.spaceAge = this.calcAge();
@@ -17,7 +17,13 @@ export class Person {
 
   mercAge() {
     const mercury = '.24';
-    let newAge = parseInt(this.age / mercury);
-    return newAge;
+    let mercurian = parseInt(this.age / mercury);
+    return mercurian;
+  }
+
+  venusAge() {
+    const venus = '.62';
+    let venusian = parseInt(this.age / venus);
+    return venusian;
   }
 }
