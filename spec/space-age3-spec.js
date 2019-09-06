@@ -1,9 +1,9 @@
-import { Age } from './../src/scripts.js';
+import { Person } from './../src/scripts.js';
 
-describe ('Age', function() {
+describe ('Person', function() {
  it('should only accept numerical input', function() {
-   let exampleAge = new Haiku("twelve");
-   expect(exampleAge.userAge()).toBe(12);
+   let exampleAge = new Person (5);
+   expect(exampleAge.checkDigits()).toBe(5);
  });
 
 });
