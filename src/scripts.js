@@ -1,19 +1,23 @@
 export class Person {
-  constructor(age, spaceAge, lifeExpectancy) {
+  constructor(age, mercury, spaceAge, lifeExpectancy) {
     this.age = age;
     this.mercury = this.mercAge();
-    this.venus = this.venusAge();
-    this.mars = this.marsAge();
-    this.jupiter = this.jupAge();
+    // this.venus = this.venusAge();
+    // this.mars = this.marsAge();
+    // this.jupiter = this.jupAge();
     // this.spaceAge = this.calcAge();
     // this.lifeExpectancy = this.calcLife();
   }
 
   checkDigits() {
-    let age = parseInt(5);
+    let age = parseInt('');
     return this.age;
   }
-  calcAge() {
-    if (this.age)
+
+
+  mercAge() {
+    const mercury = '.24';
+    let newAge = (this.age / mercury);
+    return newAge;
   }
 }

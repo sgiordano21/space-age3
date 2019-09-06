@@ -5,5 +5,13 @@ describe ('Person', function() {
    let exampleAge = new Person (5);
    expect(exampleAge.checkDigits()).toBe(5);
  });
+});
 
+
+describe ('Person', function(){
+  it('should return how old a person is in mercurian years', function(){
+    let exampleAge = new Person ('5');
+    expect (exampleAge.mercAge()).toBe(20.83);
+
+  });
 });
