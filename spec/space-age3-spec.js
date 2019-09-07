@@ -22,7 +22,7 @@ describe ('Person', function(){
     expect (exampleAge.venusAge()).toBe(41);
 
   });
-})
+});
 
 describe ('Person', function(){
   it('should return how old a person is in martian years', function(){
@@ -30,4 +30,12 @@ describe ('Person', function(){
     expect (exampleAge.marsAge()).toBe(13);
 
   });
-})
+});
+
+describe ('Person', function(){
+  it('should return how old a person is in jovian years', function(){
+    let exampleAge = new Person ('26');
+    expect (exampleAge.jupAge()).toBe(2);
+
+  });
+});
