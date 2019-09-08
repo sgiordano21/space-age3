@@ -39,3 +39,11 @@ describe ('Person', function(){
 
   });
 });
+
+describe ('Person', function(){
+  it('calc life expectancy is a person is from the americas', function(){
+    let exampleAge = new Person ('26');
+    expect (exampleAge.americasLife()).toBe(-53);
+
+  });
+});

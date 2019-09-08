@@ -1,12 +1,12 @@
 export class Person {
-  constructor(age, mercury, venus, mars, jupiter, continent lifeExpectancy) {
+  constructor(age, mercury, venus, mars, jupiter, continent) {
     this.age = age;
     this.mercury = this.mercAge();
     this.venus = this.venusAge();
     this.mars = this.marsAge();
     this.jupiter = this.jupAge();
     this.continent = continent;
-    this.lifeExpectancy = '';
+
   }
 
   checkDigits() {
@@ -14,16 +14,24 @@ export class Person {
     return this.age;
   }
 
+  americasLife() {
+    const lifeExpectancy = 79;
+    let mercLife = this.age - lifeExpectancy;
+    let lifeLength = lifeExpectancy - lifeLength;
 
-  if (this.continent === americas) {
-    lifeExpectancy = 79;
-  } else if (this.continent === asia) {
-    lifeExpectancy = 76;
-  } else if (this.continent === africa) {
-    lifeExpectancy = 61
-  } else if (this.continent === australia) {
-    lifeExpectancy = 82
+    return lifeLength;
   }
+
+  // 
+  // if (this.continent === americas) {
+  //   lifeExpectancy = 79;
+  // } else if (this.continent === asia) {
+  //   lifeExpectancy = 76;
+  // } else if (this.continent === africa) {
+  //   lifeExpectancy = 61
+  // } else if (this.continent === australia) {
+  //   lifeExpectancy = 82
+
 
   mercAge() {
     const mercury = '.24';
@@ -49,8 +57,5 @@ export class Person {
     return jovian;
   }
 
-  calcLife() {
-    if(this.age )
-  }
 
 }
