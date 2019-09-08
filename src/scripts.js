@@ -16,13 +16,14 @@ export class Person {
 
   americasLife() {
     const lifeExpectancy = 79;
-    let mercLife = this.age - lifeExpectancy;
-    let lifeLength = lifeExpectancy - lifeLength;
-
-    return lifeLength;
+    let mercLife = lifeExpectancy - this.age;
+    if (mercLife < 0){
+      return "you should already be dead";
+    }
+    return mercLife;
   }
 
-  // 
+  //
   // if (this.continent === americas) {
   //   lifeExpectancy = 79;
   // } else if (this.continent === asia) {
