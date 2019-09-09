@@ -14,24 +14,20 @@ export class Person {
     return this.age;
   }
 
-  americasLife() {
-    const lifeExpectancy = 79;
-    let mercLife = lifeExpectancy - this.age;
-    if (mercLife < 0){
-      return "you should already be dead";
-    }
-    return mercLife;
-  }
+  calcMercLife() {
+    // on earth if you are 26 years old, you will have 53 years left to live. on mercury you would be 108 years old and you would have 221 years left
+    // life expectancy on mercury is 329 years
+    // on earth its 79 years
 
-  //
-  // if (this.continent === americas) {
-  //   lifeExpectancy = 79;
-  // } else if (this.continent === asia) {
-  //   lifeExpectancy = 76;
-  // } else if (this.continent === africa) {
-  //   lifeExpectancy = 61
-  // } else if (this.continent === australia) {
-  //   lifeExpectancy = 82
+ // *i feel like i'm on the right track with this calc idea but need a bit of help getting off the ground
+this.age(mercAge())
+  const mercCalc = .24
+    let lifeLeft = 79 - this.age;
+    if (lifeLeft < 0){
+      return "You should already be dead";
+    } else if
+
+  }
 
 
   mercAge() {
