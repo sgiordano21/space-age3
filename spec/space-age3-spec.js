@@ -44,7 +44,28 @@ describe('Person', function() {
 
 describe('Person', function() {
   it('calc life expectancy on Mercury', function() {
-    let lifeLeft = new Person('26');
-    expect(lifeLeft.mercDeathAge()).toBe(220);
+    let lifeLeft = new Person('80');
+    expect(lifeLeft.mercDeathAge()).toBe("You should be dead by now");
+  });
+});
+
+describe('Person', function() {
+  it('calc life expectancy on Venus', function() {
+    let lifeLeft = new Person('80');
+    expect(lifeLeft.venusDeathAge()).toBe("You should be dead by now");
+  });
+});
+
+describe('Person', function() {
+  it('calc life expectancy on Venus', function() {
+    let lifeLeft = new Person('80');
+    expect(lifeLeft.marsDeathAge()).toBe("You should be dead by now");
+  });
+});
+
+describe('Person', function() {
+  it('calc life expectancy on Jupiter', function() {
+    let lifeLeft = new Person('80');
+    expect(lifeLeft.jupDeathAge()).toBe("You should be dead by now");
   });
 });
