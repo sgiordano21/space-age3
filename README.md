@@ -15,7 +15,7 @@ _To set up this project, clone down the repository and open the file path in the
 
 |Behaviour|Input|Output|
 |:----:|:----:|:----:|
-|App should allow user to enter their age, in numerical form| Twelve| Please enter you age in digits|
+|App should allow user to enter their age, in numerical form| Twelve| Please enter your age in digits|
 |App should return to user their age in Mercury years| 26 | 107 |
 |App should return to user their age in Venus years| 26 | 42 |
 |App should return to user their age in Mars years| 26 | 13 |
@@ -40,4 +40,4 @@ _This project incorporated webpack packages and was created with HTML, CSS, and 
 
 *Open-source*
 
-Copyright (c) 2019 **_{Sofia Giordano, Epicodus_**
+Copyright (c) 2019 **_Sofia Giordano, Epicodus_**

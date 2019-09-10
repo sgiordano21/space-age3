@@ -77,5 +77,4 @@ export class Person {
     }
     return jovian;
   }
-
 }
