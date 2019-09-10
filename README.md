@@ -1,26 +1,20 @@
-# _{Application Name}_
+# _Space-Age3_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This app calculates your age and life expectancy on other planets in our solar system, 9/9/2019_
 
-#### By _**{List of contributors}**_
+#### By _**Sofia Giordano}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This space-age calculator determines how old a user is as well as how long they have left to live on Mercury, Venus, Mars, and Jupiter._
 
 ## Setup/Installation Requirements
+_To set up this project, clone down the repository and open the file path in the browser._
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 ## Specs
 
 |Behaviour|Input|Output|
-| ::| ::| :: |
+|:----:|:----:|:----:|
 |App should allow user to enter their age, in numerical form| Twelve| Please enter you age in digits|
 |App should return to user their age in Mercury years| 26 | 107 |
 |App should return to user their age in Venus years| 26 | 42 |
@@ -32,18 +26,18 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you have questions or comments please email me at sofia.s.giordano@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This project incorporated webpack packages and was created with HTML, CSS, and JavaScript._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Open-source*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_{Sofia Giordano, Epicodus_**
